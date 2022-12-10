@@ -1,0 +1,3 @@
+
+Checking for win32 chromedriver:107.0.5304.62 in cache
+Driver found in C:\Users\kuba-\.wdm\chromedriver\107.0.5304.62\win32/chromedriver.exe
