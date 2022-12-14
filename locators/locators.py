@@ -10,6 +10,7 @@ class RegisterLocators:
     reg_button = (By.NAME, "register")
     logout_button_dsp = (By.XPATH, "//a[.='Log out']")
     logout_butt = (By.NAME, "register") #send keys click enter
+
 class LoginLocators:
 
     account_button = (By.XPATH, "//li[@class='top-account']//a")
