@@ -1,4 +1,6 @@
 import allure
+from selenium.webdriver.common.keys import Keys
+
 from locators import locators
 
 
@@ -11,6 +13,7 @@ class registerPage:
         self.password = locators.RegisterLocators.reg_password
         self.reg_button = locators.RegisterLocators.reg_button
         self.button_dsp = locators.RegisterLocators.logout_button_dsp
+        self.logout_butt = locators.RegisterLocators.logout_butt
 
     def open_page(self):
         self.driver.get("http://skleptest.pl/")
@@ -20,7 +23,8 @@ class registerPage:
         self.driver.find_element(*self.account_button).click()
         self.driver.find_element(*self.reg_mail).send_keys(e_mail)
         self.driver.find_element(*self.password).send_keys(password)
-        self.driver.find_element(*self.reg_button).click()
+        # self.driver.find_element(*self.logout_butt).click()
+        self.driver.find_element(*self.reg_button).send_keys(Keys.ENTER)
 
     @allure.step("Check that the account has been created")
     def button_displayed(self):
