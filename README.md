@@ -1,1 +1,2 @@
-# sample_test_python_selenium
+Registration, login and adding to cart test.
+Website - http://skleptest.pl/
