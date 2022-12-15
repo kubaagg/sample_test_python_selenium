@@ -3,7 +3,7 @@ Registration, login and adding to cart test.
 
 Website - http://skleptest.pl/
 
-## Technology & Tools
+## Technologies & Tools
 * PyCharm 2022.2.1
 * Git version 2.37.3
 * Selenium
