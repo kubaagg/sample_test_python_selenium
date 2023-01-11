@@ -7,7 +7,7 @@ Website - http://skleptest.pl/
 * PyCharm 2022.2.1
 * Git version 2.37.3
 * Selenium
-* ChromeDriver 108.0.5359.71
+* ChromeDriver 109.0.5414.74
 * Windows 11 Home
 * Allure 2.10.0
 * Pytest 7.1.3
