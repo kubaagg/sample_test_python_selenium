@@ -1,0 +1,5 @@
+/.pytest_cache/
+/venv/
+/page_report/.pytest_cache/
+/pages/.pytest_cache/
+/tests/.pytest_cache/
